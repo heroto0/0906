@@ -1,0 +1,23 @@
+.body{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.textLocation{
+    background: yellow;
+    font-size: 1000%;
+    position: absolute;
+    top: 40%; /*親要素を起点に上から50%*/
+    left: 50%;  /*親要素を起点に左から50%*/
+    transform: translateY(-50%) translateX(-50%); /*要素の大きさの半分ずつを戻す*/
+    -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+.textIn{
+    font-size: 800%;
+    position: absolute;
+    top: 80%; /*親要素を起点に上から50%*/
+    left: 50%;  /*親要素を起点に左から50%*/
+    transform: translateY(-50%) translateX(-50%); /*要素の大きさの半分ずつを戻す*/
+    -webkit-transform: translateY(-50%) translateX(-50%);
+}
